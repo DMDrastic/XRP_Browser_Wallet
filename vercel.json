@@ -1,6 +1,14 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
+      { "source": "/(.*)", "destination": "/" 
+    
+    },
+    {
+      "source": "/send-xrp", "destination": "/send-xrp.html" 
+    },
+    {
+      "source": "/transaction-history", "destination": "transaction-history.html" 
+    }
     ]
   }
   
